@@ -10,7 +10,7 @@ This is a simple GPA calculator app built using React. It allows users to select
 
 ## Demo
 
-You can try out the app live [here](http://localhost:3000).
+You can try out the app live [here](https://kff6sk-3000.csb.app/).
 
 ## Getting Started
 
