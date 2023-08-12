@@ -42,7 +42,7 @@ const DropdownSelector = () => {
           name: selectedSubject.name,
           credits: selectedSubject.credits,
           grade: selectedGrade.grade,
-          gradePoint: selectedGrade.points
+          gradePoint: selectedGrade.points,
         };
         const updatedSelectedSubjects = [...selectedSubjects, subjectInfo];
         setSelectedSubjects(updatedSelectedSubjects);
@@ -98,7 +98,7 @@ const DropdownSelector = () => {
         </button>
       </div>
       <div>
-        <h2 className="text-lg font-semibold mb-2">Selected Subjects:</h2>
+        <h2>Selected Subjects:</h2>
         <ul>
           {selectedSubjects.map((subject, index) => (
             <SelectedSubjectItem
