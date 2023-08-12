@@ -35,6 +35,27 @@ npm start
 
 Open your browser and go to http://localhost:3000 to see the app in action.
 
+## GPA Calculation Formula
+The GPA is calculated using the following formula:
+$$GPA = (Sum of (Subject Credits * Grade Points)) / Total Credits$$
+
+## Available Subjects
+
+|Sr. No. |	Subject |	Credits|
+|------|-----|------|
+1	| Engineering Mathematics-II |	4
+2	|Engineering Physics	| 4
+3	|Engineering Graphics & Design	| 2
+4	|LAB-Engineering Graphics & Design |	1
+5	|Basics of Electronics Engineering	| 2
+6	|LAB-Basics of Electronics Engineering	| 1
+7	|Communication Skills	| 2
+8	|LAB-Communication Skills	| 1
+9	|LAB-Computer Workshop	| 2
+10	|LAB-Engineering Physics	| 1
+
+To add more subjects you can modify subject.js and grades.js for more grades.
+
 ## Technologies Used
 React
 JavaScript
