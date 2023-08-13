@@ -49,6 +49,41 @@ const subjects = [
     name: "LAB-Engineering Physics",
     credits: 1,
   },
+  {
+    courseCode: 11,
+    name: "Engineering Mechanics",
+    credits: 3,
+  },
+  {
+    courseCode: 12,
+    name: "LAB-Engineering Mechanics",
+    credits: 1,
+  },
+  {
+    courseCode: 13,
+    name: "Engineering Cemistry",
+    credits: 3,
+  },
+  {
+    courseCode: 14,
+    name: "LAB-Engineering Cemistry",
+    credits: 1,
+  },
+  {
+    courseCode: 15,
+    name: "Basics of Computer & IT",
+    credits: 3,
+  },
+  {
+    courseCode: 16,
+    name: "LAB-Basics of Computer & IT",
+    credits: 1,
+  },
+  {
+    courseCode: 17,
+    name: "Engineering Exploration",
+    credits: 2,
+  },
 ];
 
 export default subjects;
